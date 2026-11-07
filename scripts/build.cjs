@@ -1,60 +1,19 @@
 const crypto = require("node:crypto");
 const fs = require("node:fs");
 const path = require("node:path");
-const { buildSync } = require("esbuild");
-const { strToU8, zipSync } = require("fflate");
+const {buildPluginPackage} = require("./lib/plugin-package.cjs");
 
 const root = path.resolve(__dirname, "..");
 const outputDirectory = path.join(root, "dist");
-const archiveDate = new Date("1980-01-01T00:00:00.000Z");
 let plugins = [];
 let ids = new Set();
 
 fs.rmSync(outputDirectory, { recursive: true, force: true });
 fs.mkdirSync(outputDirectory, { recursive: true });
 
-function archiveEntry(data) {
-    return [data, { mtime: archiveDate }];
-}
-
 function buildPackage(directory, metadataText) {
     let pluginDirectory = path.join(root, "plugins", directory);
-    let sourcePath = path.join(pluginDirectory, "plugin.js");
-    if (!fs.existsSync(sourcePath)) {
-        throw new Error(`${directory} requires plugin.js.`);
-    }
-
-    let result = buildSync({
-        entryPoints: [sourcePath],
-        bundle: true,
-        write: false,
-        format: "iife",
-        platform: "browser",
-        target: ["es2020"],
-        minify: true,
-        legalComments: "none",
-        banner: {
-            js: "/*! Third-party license texts are packaged in assets/THIRD-PARTY-NOTICES.txt. */"
-        }
-    });
-    let source = Buffer.from(result.outputFiles[0].contents);
-
-    let files = {
-        "plugin.json": archiveEntry(strToU8(metadataText)),
-        "plugin.js": archiveEntry(new Uint8Array(source))
-    };
-    let assetsDirectory = path.join(pluginDirectory, "assets");
-    if (fs.existsSync(assetsDirectory)) {
-        for (let assetName of fs.readdirSync(assetsDirectory).sort()) {
-            let assetPath = path.join(assetsDirectory, assetName);
-            if (!fs.statSync(assetPath).isFile() || !/^[A-Za-z0-9_.-]+$/.test(assetName)) {
-                throw new Error(`${directory} contains an invalid asset: ${assetName}`);
-            }
-            files[`assets/${assetName}`] = archiveEntry(new Uint8Array(fs.readFileSync(assetPath)));
-        }
-    }
-
-    let output = Buffer.from(zipSync(files, { level: 9 }));
+    let output = buildPluginPackage(pluginDirectory, metadataText);
     fs.writeFileSync(path.join(outputDirectory, `${directory}.paintjs`), output);
     return output;
 }

@@ -1,0 +1,13 @@
+{
+    "id": "0xc0000054.content-aware-fill",
+    "name": "Content Aware Fill",
+    "version": "1.0.0",
+    "apiVersion": 1,
+    "author": "Nicholas Hayes (0xC0000054)",
+    "website": "https://github.com/0xC0000054/pdn-content-aware-fill",
+    "copyright": "Copyright © 2018-2025 Nicholas Hayes",
+    "description": "Replaces a selection with matching pixels synthesized from the surrounding area.",
+    "dialogTitle": "Content Aware Fill v2.0.2",
+    "category": "Effects",
+    "license": "GPL-2.0-or-later"
+}

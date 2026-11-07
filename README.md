@@ -35,15 +35,21 @@ npm run build
 
 The generated `.paintjs` packages and `catalog.json` are written to `dist/`.
 
-To test a plugin, open **Settings → Plugins** in paint.js and either drop the generated `.paintjs` file onto the page or select **Install plugin…**.
+To develop one plugin, launch paint.js with it already loaded:
+
+```sh
+npm run dev -- example-plugin
+```
+
+The command opens a clean desktop instance and reloads the plugin whenever a file in its directory changes. Press `F12` to open DevTools. Set `PAINTDOTJS_PATH` if the paint.js checkout is not next to this repository.
 
 ## Add a plugin
 
 1. Create a new directory under `plugins/`.
 2. Add `plugin.json` and `plugin.js`.
 3. Add any optional files to `assets/`.
-4. Run `npm run build`.
-5. Install the generated package from `dist/` and test it in paint.js.
+4. Run `npm run dev -- <plugin-directory>` and test it in paint.js.
+5. Run `npm run build` before committing.
 
 Use another plugin in this repository as a starting point. Keep metadata in `plugin.json`; `plugin.js` should contain only the implementation and registration.
 

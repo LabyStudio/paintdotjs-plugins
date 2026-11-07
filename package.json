@@ -8,6 +8,7 @@
     ],
     "scripts": {
         "build": "node scripts/build.cjs",
+        "dev": "node scripts/dev.cjs",
         "format": "prettier --write \"plugins/*/plugin.js\""
     },
     "devDependencies": {
