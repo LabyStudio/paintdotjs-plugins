@@ -1,0 +1,13 @@
+{
+  "id": "boltbait.black-and-white-plus",
+  "name": "Black and White+",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "author": "BoltBait",
+  "website": "https://BoltBait.com/pdn",
+  "copyright": "Copyright ©2022 by BoltBait",
+  "description": "Convert photographs to black and white using six conversion methods and optional color blending.",
+  "dialogTitle": "BoltBait's Black and White+ v6.0",
+  "category": "Adjustments",
+  "license": "Pending upstream licensing review"
+}

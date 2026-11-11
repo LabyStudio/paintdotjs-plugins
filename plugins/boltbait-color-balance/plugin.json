@@ -1,0 +1,13 @@
+{
+  "id": "boltbait.color-balance",
+  "name": "Color Balance",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "author": "BoltBait",
+  "website": "https://BoltBait.com/pdn",
+  "copyright": "Copyright ©2022 by BoltBait",
+  "description": "Shift the overall color balance of an image.",
+  "dialogTitle": "BoltBait's Color Balance v6.0",
+  "category": "Adjustments",
+  "license": "Pending upstream licensing review"
+}

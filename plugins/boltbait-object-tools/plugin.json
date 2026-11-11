@@ -1,0 +1,12 @@
+{
+  "id": "boltbait.object-tools",
+  "name": "Object Tools",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "author": "BoltBait",
+  "website": "https://BoltBait.com/pdn",
+  "copyright": "Copyright ©2022 by BoltBait",
+  "description": "Bevel, feather, shade, and outline objects using their alpha channel.",
+  "category": "Effects",
+  "license": "Pending upstream licensing review"
+}

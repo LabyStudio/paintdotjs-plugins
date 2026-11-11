@@ -1,0 +1,13 @@
+{
+  "id": "boltbait.transparency",
+  "name": "Transparency",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "author": "BoltBait",
+  "website": "https://BoltBait.com/pdn",
+  "copyright": "Copyright ©2022 by BoltBait",
+  "description": "Adjust the transparency of selected pixels.",
+  "dialogTitle": "BoltBait's Transparency v6.0",
+  "category": "Adjustments",
+  "license": "Pending upstream licensing review"
+}

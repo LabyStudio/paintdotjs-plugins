@@ -1,0 +1,13 @@
+{
+  "id": "boltbait.edge-detect-classic",
+  "name": "Edge Detect Classic",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "author": "BoltBait and Chris Crosetto",
+  "website": "https://BoltBait.com/pdn",
+  "copyright": "UI ©2023 by BoltBait; algorithm ©2004 by Chris Crosetto",
+  "description": "The classic directional edge-detection effect.",
+  "dialogTitle": "BoltBait's Edge Detect Classic v1.0",
+  "category": "Effects",
+  "license": "Pending upstream licensing review"
+}

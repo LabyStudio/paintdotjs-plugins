@@ -1,0 +1,13 @@
+{
+  "id": "boltbait.hsv-gradient",
+  "name": "Gradient",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "author": "BoltBait",
+  "website": "https://BoltBait.com/pdn",
+  "copyright": "Copyright ©2018 BoltBait",
+  "description": "Render linear, radial, square, and conical gradients using RGB or HSV interpolation.",
+  "dialogTitle": "BoltBait's Gradient Effect v4.5",
+  "category": "Effects",
+  "license": "Pending upstream licensing review"
+}

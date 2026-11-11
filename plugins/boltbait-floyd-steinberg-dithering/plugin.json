@@ -1,0 +1,13 @@
+{
+  "id": "boltbait.floyd-steinberg-dithering",
+  "name": "Floyd-Steinberg Dithering",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "author": "BoltBait",
+  "website": "https://BoltBait.com/pdn",
+  "copyright": "Copyright ©2022 by BoltBait",
+  "description": "Reduce colors with Floyd-Steinberg error-diffusion dithering.",
+  "dialogTitle": "BoltBait's Floyd-Steinberg Dithering v5.2",
+  "category": "Effects",
+  "license": "Pending upstream licensing review"
+}

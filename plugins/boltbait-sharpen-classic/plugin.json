@@ -1,0 +1,13 @@
+{
+  "id": "boltbait.sharpen-classic",
+  "name": "Sharpen Classic",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "author": "BoltBait and Rick Brewster",
+  "website": "https://BoltBait.com/pdn",
+  "copyright": "UI ©2023 by BoltBait; sharpen algorithm ©2013 by Rick Brewster",
+  "description": "The classic Paint.NET sharpening effect.",
+  "dialogTitle": "BoltBait's Sharpen Classic v1.0",
+  "category": "Effects",
+  "license": "Pending upstream licensing review"
+}

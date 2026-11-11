@@ -1,0 +1,13 @@
+{
+  "id": "boltbait.hue-saturation-plus",
+  "name": "Hue / Saturation+",
+  "version": "1.0.1",
+  "apiVersion": 1,
+  "author": "BoltBait",
+  "website": "https://BoltBait.com/pdn",
+  "copyright": "Copyright ©2022 by BoltBait",
+  "description": "A manual JavaScript port with hue/saturation range selection, gray handling, lightness, and alpha adjustments.",
+  "dialogTitle": "BoltBait's Hue / Saturation+ v5.2",
+  "category": "Adjustments",
+  "license": "Pending upstream licensing review"
+}

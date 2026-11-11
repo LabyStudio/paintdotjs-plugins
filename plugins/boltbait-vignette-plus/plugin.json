@@ -1,0 +1,13 @@
+{
+  "id": "boltbait.vignette-plus",
+  "name": "Vignette+",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "author": "BoltBait",
+  "website": "https://BoltBait.com/pdn",
+  "copyright": "Copyright ©2022 by BoltBait",
+  "description": "Add a configurable colored vignette to a photo.",
+  "dialogTitle": "BoltBait's Vignette+ v6.0",
+  "category": "Effects",
+  "license": "Pending upstream licensing review"
+}

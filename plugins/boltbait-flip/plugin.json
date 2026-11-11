@@ -1,0 +1,12 @@
+{
+  "id": "boltbait.flip",
+  "name": "Flip",
+  "version": "1.0.1",
+  "apiVersion": 1,
+  "author": "BoltBait",
+  "website": "https://BoltBait.com/pdn",
+  "copyright": "Copyright ©2018 BoltBait",
+  "description": "Flip selected pixels horizontally or vertically. A hand-written JavaScript implementation.",
+  "category": "Effects",
+  "license": "Pending publication review"
+}

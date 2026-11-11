@@ -1,0 +1,13 @@
+{
+  "id": "boltbait.gaussian-blur-plus",
+  "name": "Gaussian Blur+",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "author": "BoltBait",
+  "website": "https://BoltBait.com/pdn",
+  "copyright": "Copyright © BoltBait",
+  "description": "Blur selected color and alpha channels independently.",
+  "dialogTitle": "Gaussian Blur+ v4.2",
+  "category": "Effects",
+  "license": "Pending upstream licensing review"
+}

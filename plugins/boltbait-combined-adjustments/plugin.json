@@ -1,0 +1,13 @@
+{
+  "id": "boltbait.combined-adjustments",
+  "name": "Combined Adjustments",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "author": "BoltBait",
+  "website": "https://BoltBait.com/pdn",
+  "copyright": "Copyright ©2022 by BoltBait",
+  "description": "Brightness, contrast, HSL, temperature, tint, conversion, and inversion in one adjustment.",
+  "dialogTitle": "BoltBait's Combined Adjustments v6.0",
+  "category": "Adjustments",
+  "license": "Pending upstream licensing review"
+}
